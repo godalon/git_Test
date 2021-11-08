@@ -5,5 +5,6 @@
 + ❤️소스 컨트롤에서 commit 저장 (add+커밋)
 - 깃허브에서 수정 했으면   pull 해서 내 컴퓨터 저장소로  
 업데이트 해야함
+내컴에서수정
 
 [호스팅주소](https://godalon.github.io/git_Test/)

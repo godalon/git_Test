@@ -1,0 +1,169 @@
+.pricingTable{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 490px;
+    border:2px solid #282828;
+    background: #666;
+     
+}
+
+.pricingTable .pricingTable-header h3{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.pricingTable .price-value {
+    background: #fafafa;
+    color: #666;
+    font-weight: 600;
+
+}
+
+.pricingTable .price-value span {
+    color: #666;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.pricingTable .price-value .subtitle{
+    color: #82919F;
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: italic;
+    border-bottom: 1px solid #666;
+    padding-bottom: 10px;
+}
+
+.pricingTable .best-offer{
+    background-color: #3498db;
+    color: #fff;
+    padding: 7px 51px;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 13px;
+    right: -54px;
+    transform: rotate(45deg);
+}
+
+.pricingTable .pricingContent
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 175px;
+	margin: 30px 0px;
+	padding: 30px;
+	color: #fff;
+	
+}
+.pricingTable .pricingContent ul{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.pricingTable .pricingContent ul li{
+    color: white;
+    padding: 10px 5px 0 ;
+}
+
+
+.pricingTable .pricingTable-sign-up{
+    padding: 20px 0;
+}
+
+
+.pricingTable .btn-block{
+	background: #000000;
+    border-radius: 0px;
+    border:0px none;
+    color:#fff;
+    width: 50%;
+    padding: 10px 5px;
+    margin: 0 auto;
+    text-transform: capitalize;
+    transition:all 0.3s ease 0s;
+}
+
+  .pTableWrapper
+  {
+    margin-bottom: 20px;
+  }
+
+
+@media screen and (min-width: 576px) 
+{
+
+.pricingTable
+{
+  border: 1px solid #dbdbdb;
+  background: none;
+}
+
+.pricingTable .pricingContent
+{
+	color: none;
+}
+
+.pricingTable .pricingTable-header h3
+{
+    color: #9999a5;
+}
+
+.pricingTable .pricingContent ul li{
+    color: #9999A5;
+}
+
+.pricingTable .btn-block{
+    background:#666;
+}
+
+
+.active .pricingTable .pricingTable-header h3
+{
+    color: white;
+}
+  
+  .active .pricingTable{
+    width: 100%;
+    height: 100%;
+    background: #666;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transform: rotateY(360deg);
+    transition: all 0.7s ease-in-out;
+    border:2px solid #282828;
+
+}
+
+
+.active .pricingTable .pricingTable-sign-up .btn
+{
+    background: #000000;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+
+.active .pricingTable .btn:hover
+{
+    background: #ededed;
+    color:#000000;
+}
+
+.active .pricingTable .pricingContent ul li
+{
+    color: white;
+}
+
+}

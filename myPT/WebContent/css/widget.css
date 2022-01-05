@@ -1,0 +1,83 @@
+/*Content Panel*/
+.content-panel {
+  background: #ffffff;
+  box-shadow: 0px 3px 2px #aab2bd;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.content-panel h4 {
+  margin-left: 10px;
+}
+
+/* ?? ??? */
+.widget-content {
+  padding: 1rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.widget-content .widget-content-wrapper {
+  display: flex;
+  flex: 1;
+  position: relative;
+  align-items: center;
+}
+
+.widget-content .widget-content-left .widget-heading {
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+.widget-content .widget-content-left .widget-subheading {
+  opacity: 0.5;
+}
+
+.widget-content .widget-content-right {
+  margin-left: auto;
+}
+
+.widget-content .widget-numbers {
+  font-weight: bold;
+  font-size: 1.8rem;
+  display: block;
+}
+
+.widget-content .widget-content-outer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.widget-content .widget-progress-wrapper {
+  margin-top: 1rem;
+}
+
+.widget-content .widget-progress-wrapper .progress-sub-label {
+  margin-top: 0.33333rem;
+  opacity: 0.5;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.widget-content .widget-progress-wrapper .progress-sub-label .sub-label-right {
+  margin-left: auto;
+}
+
+.widget-content .widget-content-right.widget-content-actions {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.widget-content:hover .widget-content-right.widget-content-actions {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* 커스텀 버튼 */
+.custom-btn{
+	display:inline-flex !important;
+}
+
+

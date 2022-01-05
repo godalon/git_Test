@@ -1,0 +1,22 @@
+
+@media (min-width: 992px){
+	.card-img-top {
+    width: 100% !important;
+    height: 22vw;
+    object-fit: fill !important;
+	}
+}
+@media (max-width: 992px){
+	.card-img-top {
+    width: 100% !important;
+    height: 40vw;
+    object-fit: fill !important;
+	}
+}
+@media (max-width: 768px){
+	.card-img-top {
+    width: 100% !important;
+    height: 80vw;
+    object-fit: fill !important;
+	}
+}

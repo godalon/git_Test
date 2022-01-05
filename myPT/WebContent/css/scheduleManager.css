@@ -1,0 +1,8 @@
+.pro,
+.PT {
+  width: 100%;
+}
+
+.btn-confirm{
+	display:none !important;
+}
